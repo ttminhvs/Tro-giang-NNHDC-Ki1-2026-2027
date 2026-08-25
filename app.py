@@ -23,7 +23,7 @@ hãy đưa ra gợi ý từng bước.
 
 # 4. Khởi tạo mô hình an toàn (Sử dụng 'gemini-1.5-flash' theo cách khai báo mới nhất)
 try:
-    model = genai.GenerativeModel('gemini-1.5-flash', system_instruction=chi_dan_he_thong)
+    model = genai.GenerativeModel('gemini-pro', system_instruction=chi_dan_he_thong)
 except Exception as e:
     st.error(f"Lỗi khởi tạo mô hình AI: {e}")
     st.stop()
