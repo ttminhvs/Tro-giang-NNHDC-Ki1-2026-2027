@@ -13,7 +13,7 @@ hãy đưa ra gợi ý từng bước.
 
 # 3. Khởi tạo AI
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="models/gemini-1.5-flash-latest,
     system_instruction=chi_dan_he_thong
 )
 
